@@ -17,13 +17,13 @@ const itemsSchema=new mongoose.Schema({
 });
 const Item=mongoose.model("Item",itemsSchema);
 const item1=new Item({
-  name:"Welcome"
+  name:"Welcome to TodoList"
 });
 const item2=new Item({
-  name:"Hit"
+  name:"Hit + to add new item"
 });
 const item3=new Item({
-  name:"Use"
+  name:"select check box to remove"
 });
 
 const customListItemsSchema=new mongoose.Schema({
